@@ -3,99 +3,99 @@ import React, { useState } from "react";
 const sectionContent = {
   "Coding": [
     {
-      image: "/images/Coding1.png",
+      image: "/Coding1.png",
       description: "Built a Virtual Portfolio using React, TypeScript, and TailwindCSS.",
     },
     {
-      image: "/images/Coding.png",
+      image: "/Coding.png",
       description: "Run a series of simulations in MATLAB to calculate the optimal angle of a solar panel.",
     },{
-      image: "/images/Coding3.png",
+      image: "/Coding3.png",
       description: "Automated Book Management System using Python, Yolov8 for book detection, the Google Vision API for text extraction, Tkinter for the HUD Design and SQLite for database management.",
     },{
-      image: "/images/Coding4.jpeg",
+      image: "/Coding4.jpeg",
       description: "Automated a residential building's vehicle management system using Python, OpenCV for vehicle detection, and SQLite for database management.",
     },{
-      image: "/images/Coding6.png",
+      image: "/Coding6.png",
       description: "Designed and Developed a course in how to use AI to improve productivity, using Ford's internal LLM tools and APIs. This course was delivered to the whole cooling team at Ford.",
     }
   
   ],
   "Mechanical Design": [
     {
-      image: "/images/Mechanical1.PNG",
+      image: "/Mechanical1.PNG",
       description: "Designed a prototype for a Mexican Strartup of a quad-engine aircraft using Fusion 360, including CAD modeling and rendering.",
     },
     {
-      image: "/images/Mechanic.JPG",
+      image: "/Mechanic.JPG",
       description: "Designed a prototype for a Mexican Startup of a quad-engine aircraft using Fusion 360, including CAD modeling and rendering."
     },
     {
-      image: "/images/BroncoSport.PNG",
+      image: "/BroncoSport.PNG",
       description: "Led the design and development of the transmission cooling system for the Bronco Sport, Edge, and Maverick models at Ford, from their 2025 to their 2029 model years.",
     },{
-      image: "/images/Mechanical7.jpeg",
+      image: "/Mechanical7.jpeg",
       description: "Designed and then built a prototype of a 3D-printed automatic licence plate reader using FreeCAD.",
     },{
-      image: "/images/Mechanical8.jpeg",
+      image: "/Mechanical8.jpeg",
       description: "Designed and then built a prototype of a 3D-printed automatic licence plate reader using FreeCAD.",
     },{
-      image: "/images/Mechanical9.png",
+      image: "/Mechanical9.png",
       description: "Simulated the thermal performance of a concrete block to determine its suitability for thermal energy extraction in a residential building using SolidWorks.",
     },{
-      image: "/images/Mechanical10.png",
+      image: "/Mechanical10.png",
       description: "Designed the HVAC system for a pork processing plant using AutoCAD, including the layout and selection of equipment, to ensure optimal air quality and temperature control.",
     },{
-      image: "/images/Mechanical11.png",
+      image: "/Mechanical11.png",
       description: "Designed the HVAC system for a major hospital using AutoCAD, including the layout and selection of equipment, to ensure optimal air quality and temperature control.",
     },{
-      image: "/images/Mechanical12.png",
+      image: "/Mechanical12.png",
       description: "Designed the HVAC system for a major clinc using AutoCAD, including the layout and selection of equipment, to ensure optimal air quality and temperature control.",
     },{
-      image: "/images/Mechanical13.png",
+      image: "/Mechanical13.png",
       description: "Designed and machined several components using a Plasma CNC machine, including custom brackets, signs and decorative pieces.",
     }
   ],
   "Project Management": [
     {
-      image: "/images/Management2.jpg",
+      image: "/Management2.jpg",
       description: "Lead the design process of several ford commodities, organizing team of fours meetings, setting deadlines, and ensuring the quality of the deliverables.",
     },{
-      image: "/images/Management3.jpg",
+      image: "/Management3.jpg",
       description: "Led the warranty efforts of our team, organized meetings, set deadlines, actively helped my teammates on their tasks and even designed an engineering dashboard to keep track of advancements.",
     },{
-      image: "/images/ManagementOG.png",
+      image: "/ManagementOG.png",
       description: "Led my university's EV lab to successfully replace the powertrain of an electrified vehicle and gave it remote control capabilities, this while managing a team of 10 students, organizing meetings, setting deadlines, and ensuring the quality of the deliverables.",
     }
   ],
   "Extracurriculars": [
     {
-      image: "/images/GOLF.jpeg",
+      image: "/GOLF.jpeg",
       description: "18 Handicap Golfer, played several local tournaments."
     },{
-      image: "/images/PHOTO.jpeg",
+      image: "/PHOTO.jpeg",
       description: "Amateur Photographer, Fujifilm Enthusiast, Outdoor Explorer."
     },{
-      image: "/images/BOWLING.jpeg",
+      image: "/BOWLING.jpeg",
       description: "152 Average Bowler, participated in local leagues and tournaments, winner of the 2022 Sonora Bowling League."
     }
   ],
   "Research": [
     {
-      image: "/images/Research1.png",
+      image: "/Research1.png",
       description: "Estimation of the Availability of Electrical Energy Extracted by Thermoelectric Modules.",
       link: "https://www.researchgate.net/publication/383435482_Estimation_of_the_Availability_of_Electrical_Energy_from_the_Thermal_Energy_Extracted_by_Thermoelectric_Modules_Case_Study_in_Monterrey_Mexico"
     },
     {
-      image: "/images/Research2.png",
+      image: "/Research2.png",
       description: "Design and validation of a passenger-oriented intelligent suspension system.",
       link: "https://www.researchgate.net/publication/356423068_Passenger-Oriented_Intelligent_Suspension_with_a_Biodynamic_Model_and_Skyhook_Control"
     },{
-      image: "/images/Research3.png",
+      image: "/Research3.png",
       description: "Computing and Assessment of Discrete Angle Positions for Optimizing the Solar Energy Harvesting for Urban Sustainable Development.",
       link: "https://www.researchgate.net/publication/354282355_Computing_and_Assessment_of_Discrete_Angle_Positions_for_Optimizing_the_Solar_Energy_Harvesting_for_Urban_Sustainable_Development"
     },{
-      image: "/images/Research4.png",
+      image: "/Research4.png",
       description: "6 Months of Leading the Electric Vehicle Lab at Tec de Monterrey, working on an electrified vehicle project.",
       link: "https://conecta.tec.mx/es/noticias/monterrey/educacion/con-auto-electrico-buscan-innovar-en-alternativas-sustentables"
     }
