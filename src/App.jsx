@@ -56,7 +56,7 @@ const sectionContent = {
     {
       description: "18 Handicap Golfer, played several local tournaments."
     },{
-      description: "Amateur Photographer, Fujifilm Enthusiast, Outdoor Explorer."
+      description: "Amateur Photographer, Fujifilm User, Outdoor Explorer."
     },{
       image: bowling,
       description: "152 Average Bowler, participated in local leagues and tournaments, winner of the 2022 Sonora Bowling League."
