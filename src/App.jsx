@@ -1,4 +1,29 @@
 import React, { useState } from "react";
+import bowling from './BOWLING.jpeg';
+import broncoSport from './Management2.jpg';
+import coding from './Coding.png';
+import coding1 from './Coding1.png';
+import coding3 from './Coding3.png';
+import coding4 from './Coding4.jpeg';
+import coding6 from './Coding6.png';
+import golf from './GOLF.jpeg';
+import Management2 from './Management2.jpg';
+import Management3 from './Management3.jpg';
+import Managementog from './ManagementOG.png';
+import Mechanic from './Management2.jpg';
+import Mechanical1 from './Management2.jpg';
+import Mechanical7 from './Mechanical7.jpeg';
+import Mechanical8 from './Mechanical8.jpeg';
+import Mechanical9 from './Mechanical9.png';
+import Mechanical10 from './Mechanical10.png';
+import Mechanical11 from './Mechanical11.png';
+import Mechanical12 from './Mechanical12.png';
+import Mechanical13 from './Mechanical13.png';
+import Photo from './PHOTO.jpeg';
+import Research1 from './Research1.png';
+import Research2 from './Research2.png';
+import Research3 from './Research3.png';
+import Research4 from './Research4.png';
 const sectionContent = {
   "Coding": [
     {
