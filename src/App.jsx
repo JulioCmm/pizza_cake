@@ -122,7 +122,8 @@ console.log("🚀 Portfolio component loaded");
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {sectionContent[selected].map((item, index) => (
                   <div key={index} className="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
-                    <img src={item.image} alt={item.description} className="w-full h-48 object-cover" />
+                    {item.image && (
+                    <img src={item.image} alt={item.description} className="w-full h-48 object-cover" />)}
                     <div className="p-4 text-gray-300 text-sm">
                       {item.description}
                       {item.link && (
