@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import bowling from './BOWLING.jpeg';
-import broncoSport from './Management2.jpg';
-import coding from './Coding.png';
-import coding1 from './Coding1.png';
-import coding3 from './Coding3.png';
-import coding4 from './Coding4.jpeg';
-import coding6 from './Coding6.png';
-import golf from './GOLF.jpeg';
-import Management2 from './Management2.jpg';
+
 import Management3 from './Management3.jpg';
 import Managementog from './ManagementOG.png';
 import Mechanic from './Management2.jpg';
