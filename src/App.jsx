@@ -23,7 +23,7 @@ import Photo from './PHOTO.jpeg';
 import Research1 from './Research1.png';
 import Research2 from './Research2.png';
 import Research3 from './Research3.png';
-import Research4 from './Research.png';
+import Research4 from './Research4.png';
 const sectionContent = {
   "Coding": [
     {
