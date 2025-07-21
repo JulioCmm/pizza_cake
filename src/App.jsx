@@ -1,79 +1,103 @@
 import React, { useState } from "react";
 import bowling from './BOWLING.jpeg';
+import broncosport from './BroncoSport.PNG';
+import coding from './coding.png';
+import coding1 from './coding1.png';
+import coding3 from './coding3.png';
+import coding4 from './coding4.jpeg';
+import coding6 from './coding6.png';
+import golf from './GOLF.jpeg';
+import Management2 from './Manegement2.jpg';
+import Management3 from './Management3.jpg';
+import Managementog from './ManagementOG.png';
+import Mechanic from './Mechanic.JPG';
+import Mechanical1 from './Mechanical1.PNG';
+import Mechanical7 from './Mechanical7.jpeg';
+import Mechanical8 from './Mechanical8.jpeg';
+import Mechanical9 from './Mechanical9.png';
+import Mechanical10 from './Mechanical10.png';
+import Mechanical11 from './Mechanical11.png';
+import Mechanical12 from './Mechanical12.png';
+import Mechanical13 from './Mechanical13.png';
+import Photo from './PHOTO.jpeg';
+import Research1 from './Research1.png';
+import Research2 from './Research2.png';
+import Research3 from './Research3.png';
+import Research4 from './Research.png';
 const sectionContent = {
   "Coding": [
     {
-      image: "/Coding1.png",
+      image: coding1,
       description: "Built a Virtual Portfolio using React, TypeScript, and TailwindCSS.",
     },
     {
-      image: "/Coding.png",
+      image: coding,
       description: "Run a series of simulations in MATLAB to calculate the optimal angle of a solar panel.",
     },{
-      image: "/Coding3.png",
+      image: coding3,
       description: "Automated Book Management System using Python, Yolov8 for book detection, the Google Vision API for text extraction, Tkinter for the HUD Design and SQLite for database management.",
     },{
-      image: "/Coding4.jpeg",
+      image: coding4,
       description: "Automated a residential building's vehicle management system using Python, OpenCV for vehicle detection, and SQLite for database management.",
     },{
-      image: "/Coding6.png",
+      image: coding6,
       description: "Designed and Developed a course in how to use AI to improve productivity, using Ford's internal LLM tools and APIs. This course was delivered to the whole cooling team at Ford.",
     }
   
   ],
   "Mechanical Design": [
     {
-      image: "/Mechanical1.PNG",
+      image: Mechanical1,
       description: "Designed a prototype for a Mexican Strartup of a quad-engine aircraft using Fusion 360, including CAD modeling and rendering.",
     },
     {
-      image: "/Mechanic.JPG",
+      image: Mechanic,
       description: "Designed a prototype for a Mexican Startup of a quad-engine aircraft using Fusion 360, including CAD modeling and rendering."
     },
     {
-      image: "/BroncoSport.PNG",
+      image: broncosport,
       description: "Led the design and development of the transmission cooling system for the Bronco Sport, Edge, and Maverick models at Ford, from their 2025 to their 2029 model years.",
     },{
-      image: "/Mechanical7.jpeg",
+      image: Mechanical7,
       description: "Designed and then built a prototype of a 3D-printed automatic licence plate reader using FreeCAD.",
     },{
-      image: "/Mechanical8.jpeg",
+      image: Mechanical8,
       description: "Designed and then built a prototype of a 3D-printed automatic licence plate reader using FreeCAD.",
     },{
-      image: "/Mechanical9.png",
+      image: Mechanical9,
       description: "Simulated the thermal performance of a concrete block to determine its suitability for thermal energy extraction in a residential building using SolidWorks.",
     },{
-      image: "/Mechanical10.png",
+      image: Mechanical10,
       description: "Designed the HVAC system for a pork processing plant using AutoCAD, including the layout and selection of equipment, to ensure optimal air quality and temperature control.",
     },{
-      image: "/Mechanical11.png",
+      image: Mechanical11,
       description: "Designed the HVAC system for a major hospital using AutoCAD, including the layout and selection of equipment, to ensure optimal air quality and temperature control.",
     },{
-      image: "/Mechanical12.png",
+      image: Mechanical12,
       description: "Designed the HVAC system for a major clinc using AutoCAD, including the layout and selection of equipment, to ensure optimal air quality and temperature control.",
     },{
-      image: "/Mechanical13.png",
+      image: Mechanical13,
       description: "Designed and machined several components using a Plasma CNC machine, including custom brackets, signs and decorative pieces.",
     }
   ],
   "Project Management": [
     {
-      image: "/Management2.jpg",
+      image: Management2,
       description: "Lead the design process of several ford commodities, organizing team of fours meetings, setting deadlines, and ensuring the quality of the deliverables.",
     },{
-      image: "/Management3.jpg",
+      image: Management3,
       description: "Led the warranty efforts of our team, organized meetings, set deadlines, actively helped my teammates on their tasks and even designed an engineering dashboard to keep track of advancements.",
     },{
-      image: "/ManagementOG.png",
+      image: Managementog,
       description: "Led my university's EV lab to successfully replace the powertrain of an electrified vehicle and gave it remote control capabilities, this while managing a team of 10 students, organizing meetings, setting deadlines, and ensuring the quality of the deliverables.",
     }
   ],
   "Extracurriculars": [
     {
-      image: "/GOLF.jpeg",
+      image: golf,
       description: "18 Handicap Golfer, played several local tournaments."
     },{
-      image: "/PHOTO.jpeg",
+      image: Photo,
       description: "Amateur Photographer, Fujifilm Enthusiast, Outdoor Explorer."
     },{
       image: bowling,
@@ -82,20 +106,20 @@ const sectionContent = {
   ],
   "Research": [
     {
-      image: "/Research1.png",
+      image: Research1,
       description: "Estimation of the Availability of Electrical Energy Extracted by Thermoelectric Modules.",
       link: "https://www.researchgate.net/publication/383435482_Estimation_of_the_Availability_of_Electrical_Energy_from_the_Thermal_Energy_Extracted_by_Thermoelectric_Modules_Case_Study_in_Monterrey_Mexico"
     },
     {
-      image: "/Research2.png",
+      image: Research2,
       description: "Design and validation of a passenger-oriented intelligent suspension system.",
       link: "https://www.researchgate.net/publication/356423068_Passenger-Oriented_Intelligent_Suspension_with_a_Biodynamic_Model_and_Skyhook_Control"
     },{
-      image: "/Research3.png",
+      image: Research3,
       description: "Computing and Assessment of Discrete Angle Positions for Optimizing the Solar Energy Harvesting for Urban Sustainable Development.",
       link: "https://www.researchgate.net/publication/354282355_Computing_and_Assessment_of_Discrete_Angle_Positions_for_Optimizing_the_Solar_Energy_Harvesting_for_Urban_Sustainable_Development"
     },{
-      image: "/Research4.png",
+      image: Research4,
       description: "6 Months of Leading the Electric Vehicle Lab at Tec de Monterrey, working on an electrified vehicle project.",
       link: "https://conecta.tec.mx/es/noticias/monterrey/educacion/con-auto-electrico-buscan-innovar-en-alternativas-sustentables"
     }
