@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import bowling from './BOWLING.jpeg';
 const sectionContent = {
   "Coding": [
     {
@@ -76,7 +76,7 @@ const sectionContent = {
       image: "/PHOTO.jpeg",
       description: "Amateur Photographer, Fujifilm Enthusiast, Outdoor Explorer."
     },{
-      image: "./BOWLING.jpeg",
+      image: bowling,
       description: "152 Average Bowler, participated in local leagues and tournaments, winner of the 2022 Sonora Bowling League."
     }
   ],
