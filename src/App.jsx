@@ -120,7 +120,7 @@ const sectionContent = {
 
 export default function Portfolio() {
   const [selected, setSelected] = useState(null);
-
+console.log("🚀 Portfolio component loaded");
   return (
     <main className="min-h-screen bg-gray-950 text-white p-8">
       <section className="max-w-5xl mx-auto">
