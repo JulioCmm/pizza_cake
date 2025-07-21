@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import bowling from './BOWLING.jpeg';
-import broncosport from './BroncoSport.PNG';
+import broncoSport from './BroncoSport.PNG';
 import coding from './coding.png';
 import coding1 from './coding1.png';
 import coding3 from './coding3.png';
