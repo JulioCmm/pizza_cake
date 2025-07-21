@@ -1,25 +1,20 @@
 import React, { useState } from "react";
 import bowling from './BOWLING.jpeg';
 import broncoSport from './Management2.jpg';
-import coding from './Coding.png';
+import croding from './Coding.png';
 import coding1 from './Coding1.png';
 import coding3 from './Coding3.png';
 import coding4 from './Management2.jpg';
 import coding6 from './Coding6.png';
-import golf from './Management2.jpg';
-import Management2 from './Management2.jpg';
 import Management3 from './Management3.jpg';
 import Managementog from './ManagementOG.png';
 import Mechanic from './Management2.jpg';
 import Mechanical1 from './Management2.jpg';
-import Mechanical7 from './Management2.jpg';
-import Mechanical8 from './Management2.jpg';
 import Mechanical9 from './Mechanical9.png';
 import Mechanical10 from './Mechanical10.png';
 import Mechanical11 from './Mechanical11.png';
 import Mechanical12 from './Mechanical12.png';
 import Mechanical13 from './Mechanical13.png';
-import Photo from './Management2.jpg';
 import Research1 from './Research1.png';
 import Research2 from './Research2.png';
 import Research3 from './Research3.png';
@@ -31,7 +26,7 @@ const sectionContent = {
       description: "Built a Virtual Portfolio using React, TypeScript, and TailwindCSS.",
     },
     {
-      image: coding,
+      image: croding,
       description: "Run a series of simulations in MATLAB to calculate the optimal angle of a solar panel.",
     },{
       image: coding3,
@@ -58,10 +53,10 @@ const sectionContent = {
       image: broncosport,
       description: "Led the design and development of the transmission cooling system for the Bronco Sport, Edge, and Maverick models at Ford, from their 2025 to their 2029 model years.",
     },{
-      image: Mechanical7,
+      image: broncosport,
       description: "Designed and then built a prototype of a 3D-printed automatic licence plate reader using FreeCAD.",
     },{
-      image: Mechanical8,
+      image: broncosport,
       description: "Designed and then built a prototype of a 3D-printed automatic licence plate reader using FreeCAD.",
     },{
       image: Mechanical9,
@@ -82,7 +77,7 @@ const sectionContent = {
   ],
   "Project Management": [
     {
-      image: Management2,
+      image: broncosport,
       description: "Lead the design process of several ford commodities, organizing team of fours meetings, setting deadlines, and ensuring the quality of the deliverables.",
     },{
       image: Management3,
@@ -94,10 +89,10 @@ const sectionContent = {
   ],
   "Extracurriculars": [
     {
-      image: golf,
+      image: broncosport,
       description: "18 Handicap Golfer, played several local tournaments."
     },{
-      image: Photo,
+      image: broncosport,
       description: "Amateur Photographer, Fujifilm Enthusiast, Outdoor Explorer."
     },{
       image: bowling,
