@@ -4,12 +4,9 @@ import broncoSport from './Management2.jpg';
 import croding from './Coding.png';
 import coding1 from './Coding1.png';
 import coding3 from './Coding3.png';
-import coding4 from './Management2.jpg';
 import coding6 from './Coding6.png';
 import Management3 from './Management3.jpg';
 import Managementog from './ManagementOG.png';
-import Mechanic from './Management2.jpg';
-import Mechanical1 from './Management2.jpg';
 import Mechanical9 from './Mechanical9.png';
 import Mechanical10 from './Mechanical10.png';
 import Mechanical11 from './Mechanical11.png';
@@ -32,7 +29,7 @@ const sectionContent = {
       image: coding3,
       description: "Automated Book Management System using Python, Yolov8 for book detection, the Google Vision API for text extraction, Tkinter for the HUD Design and SQLite for database management.",
     },{
-      image: coding4,
+      image: broncosport,
       description: "Automated a residential building's vehicle management system using Python, OpenCV for vehicle detection, and SQLite for database management.",
     },{
       image: coding6,
@@ -42,11 +39,11 @@ const sectionContent = {
   ],
   "Mechanical Design": [
     {
-      image: Mechanical1,
+      image: broncosport,
       description: "Designed a prototype for a Mexican Strartup of a quad-engine aircraft using Fusion 360, including CAD modeling and rendering.",
     },
     {
-      image: Mechanic,
+      image: broncosport,
       description: "Designed a prototype for a Mexican Startup of a quad-engine aircraft using Fusion 360, including CAD modeling and rendering."
     },
     {
